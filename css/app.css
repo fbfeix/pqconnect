@@ -1,0 +1,74 @@
+/* Application Styles */
+
+
+/* home */
+
+  article {
+    width: 100%;
+  }
+
+  section.home-item {
+    display: inline-block;
+    height: 100px;
+    background-color: #f0f0f0;
+    margin: 5px;
+    padding: 5px;
+    transition: background-color 0.8s;
+    width: 100%;
+  }
+
+  section.home-item h3 {
+    font-size: 14pt;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  section.home-item, h3 {
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+  }
+
+  section.home-item:hover {
+    background-color: #09bc55;
+  }
+
+  section.home-item h3 a {
+    display: block !important;
+    width: 100%;  
+    height: 100px;
+  }
+@media only screen and (min-width: 700px) {
+
+  article {
+    margin: 0px auto;
+    width: 700px;
+  }
+
+  section.home-item {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    background-color: #f0f0f0;
+    margin: 5px;
+    padding: 5px;
+    transition: background-color 0.8s;
+  }
+
+  section.home-item h3 {
+    font-size: 14pt;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  section.home-item h3, section.home-item a {
+    width: 300px;
+  }
+
+
+
+
+
+
+  
+}

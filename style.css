@@ -1,0 +1,180 @@
+/*
+Theme Name: Tutorials-Theme
+Theme URI: http://felixastner.de/
+Author: Felix Astner
+Author URI: http://felixastner.de
+Description: Bla bla bla
+Version: 1.0
+License: Don't publish it without my acknowledgement!
+Tags: Awesome, Hilarious, Super, Legendary
+
+*/
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+
+  color: #444444;
+}
+
+a, a:visited {
+  color: #444444;
+  text-decoration: none;
+}
+
+
+/* header kommt noch */
+header {
+  margin-bottom: 10px;
+}
+
+header .flex h1 {
+  font-size: 16pt;
+  margin: 0px;
+  padding: 5px;
+  text-align: center;
+}
+
+header .flex nav {
+  text-align: center;
+}
+
+header .flex nav ul.site-list li {
+  padding: 0px 5px;
+  border-right: 1px solid #444444;
+  
+  display: inline;
+}
+
+header .flex nav ul.site-list li:last-child {
+  border-right: 0px;
+}
+
+ul.site-list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  display: inline;
+}
+
+
+
+
+/* weiter mit article */
+
+article aside#tags nav a{
+  display: inline-block;
+  font-size: smaller;
+}
+
+article h2 {
+  border-left: 2px solid #444444;
+  padding: 10px;
+  margin: 5px 3px;
+  font-weight: 100;
+}
+
+article h1 {
+  background-color: #1b5d1b;
+  padding: 10px;
+  color: #fff;
+  font-weight: 100;
+}
+
+article h3 {
+  font-weight: 100;
+  margin-bottom: 2px;
+  margin-top: 15px;
+}
+
+article p {
+  margin: 0px;
+}
+
+article h1, article h3, article p, article img {
+  padding: 0px 5px;
+}
+
+article .wp-caption-text {
+  color: #777777;
+  font-size: smaller;
+}
+
+
+
+
+
+@media only screen and (min-width: 700px) {
+
+  header .flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -o-box;
+    display: -ms-box;
+    display: box;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -o-box-orient: horizontal;
+    -ms-box-orient: horizontal;
+    box-orient: horizontal;
+    text-align: center;
+    width: 100%;
+  }
+
+  header div.flex .left-sided, header div.flex .right-sided {
+    -webkit-box-flex: 1;
+        -moz-box-flex: 1;
+        -o-box-flex: 1;
+        -ms-box-flex: 1;
+        box-flex: 1;
+    line-height: 30pt;
+    margin: 0px;
+    padding: 5px 10px;
+  }
+
+  header div.flex .left-sided h1, header div.flex .right-sided nav{
+    line-height: 30pt;
+    margin: 0px;
+    padding: 5px 10px;
+  }
+
+  article aside#tags nav, article h2, article h3, article p  {
+    width: 700px;
+
+
+    margin: 0px auto;
+  }
+  
+  article .wp-caption {
+    margin: 0px auto !important;
+    display: block;
+    max-width: 700px;
+  }
+  
+  
+  
+
+  article h1, article h2, article h3, article h4, article h5, article h6 {
+    margin-top: 35px;
+    margin-bottom: 10px;
+  }
+
+  article h2 {
+    margin-top: 5px
+  }
+
+  article h1 {
+    width: 50%;
+    padding: 20px 40px;;
+    text-align: right;
+    font-size: 20pt;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+  header {
+    width: 1100px;
+    margin: 0px auto;
+  }
+}
